@@ -1,0 +1,29 @@
+!!! 5
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "en", :lang => "en"}
+  %head
+    %title
+      = @page_title || "Mitch And Megs Photography"
+    %meta{"http-equiv"=>"Content-Type", content:"text/html; charset=utf-8"}
+    <!--[if lt IE 9]>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <![endif]-->
+    %meta{name:"keywords", content:""}
+    %meta{name:"description", content:""}
+    %meta{name:"author", content:""}
+    %meta{name:"copyright", content:""}
+    %meta{name:"viewport", content:"initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width"}
+    %meta{name:"fb:admins", content:""}
+    %meta{name:"og:title", content:""}
+    %meta{name:"og:description", content:""}
+    %meta{name:"og:type", content:""}
+    %meta{name:"og:image", content:""}
+    %meta{name:"og:url", content:""}
+    %meta{name:"og:site_name", content:""}
+    %link{rel:"icon", type:"images/png", href:""}
+    = stylesheet_link_tag  "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+
+  %body{"data-spy"=>"scroll", "data-target"=>"#navbar"}
+    = yield
+
+

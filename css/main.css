@@ -1,0 +1,779 @@
+/* Font Faces
+----------------------------------------------- */
+@font-face {
+  font-family: 'WalkwayBold';
+  src: url("/includes/type/Walkway_Bold.eot");
+  src: url("/includes/type/Walkway_Bold.ttf") format("truetype"), url("/includes/type/Walkway_Bold.svg#Walkway_Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Overwrites and Tag Declarations
+----------------------------------------------- */
+/* line 22, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* line 32, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* line 36, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+html {
+  height: 100%;
+  min-height: 100%; }
+
+/* line 41, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+body {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  line-height: 1;
+  min-height: 100%; }
+
+/* line 47, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 51, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 55, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+:focus {
+  outline: 0; }
+
+/* line 59, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+ins {
+  text-decoration: none; }
+
+/* line 63, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 67, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 72, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+a {
+  outline: none;
+  text-decoration: none; }
+
+/* line 77, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 81, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+a img {
+  border: none; }
+
+/* line 85, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+.clear, section article, section#process article div.container ul, section#works article div.container ul, section#contact article div.container ul, body.questionnaire form, body.questionnaire form fieldset {
+  display: block; }
+
+/* line 89, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+.clear:after, section article:after, section#process article div.container ul:after, section#works article div.container ul:after, section#contact article div.container ul:after, body.questionnaire form:after, body.questionnaire form fieldset:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+/* line 97, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+* html .clear, * html section article, section * html article, * html section#process article div.container ul, section#process article div.container * html ul, * html section#works article div.container ul, section#works article div.container * html ul, * html section#contact article div.container ul, section#contact article div.container * html ul, * html body.questionnaire form, body.questionnaire * html form, * html body.questionnaire form fieldset, body.questionnaire form * html fieldset {
+  height: 1%; }
+
+/* line 101, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+.fancybox-outer, .fancybox-skin {
+  background-color: rgba(0, 0, 0, 0) !important;
+  /* or whatever */
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; }
+
+/* Navigation
+----------------------------------------------- */
+/* line 112, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+nav ul li {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase; }
+/* line 119, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+nav .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center; }
+/* line 125, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+nav .navbar-nav > li {
+  float: none;
+  display: inline-block; }
+/* line 130, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+nav #logo {
+  width: 238px;
+  height: 48px;
+  background: transparent url("/img/logo.png") no-repeat scroll 0 0;
+  display: inline-block;
+  position: relative;
+  top: 11px; }
+
+/* Sections
+----------------------------------------------- */
+/* line 142, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section, footer {
+  margin-top: 69px; }
+  /* line 143, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header, footer header {
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 69px; }
+  /* line 152, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header h1, footer header h1 {
+    color: #fff;
+    display: block;
+    font: normal 26px/60px 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif;
+    left: 50%;
+    margin: -80px 0 0 -480px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    top: 50%;
+    width: 960px;
+    z-index: 0;
+    font-size: 78px; }
+  /* line 167, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header h2, footer header h2 {
+    color: #fff;
+    display: block;
+    font: normal 78px/78px 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif;
+    left: 50%;
+    margin: -80px 0 0 -480px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    top: 55%;
+    width: 960px; }
+  /* line 180, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#hero header, footer#hero header {
+    background-image: url("/img/IMG_2298.jpg"); }
+  /* line 184, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#lifestyle header, footer#lifestyle header {
+    background-image: url("/img/IMG_0362_2.jpg"); }
+  /* line 187, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#little_ones header, footer#little_ones header {
+    background-image: url("/img/20101003.17.05.40IMG_7953.jpg"); }
+  /* line 190, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#love header, footer#love header {
+    background-image: url("/img/20100516.18.00.25.IMG_3670-Edit.jpg"); }
+  /* line 193, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#investment header, footer#investment header {
+    background-image: url("/img/investment.jpg"); }
+  /* line 196, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header, footer#contact header {
+    background-image: url("/img/marin_map.jpg"); }
+
+/* line 202, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section article {
+  padding: 0;
+  position: relative;
+  z-index: 10; }
+  /* line 207, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article div.container {
+    margin: 0 auto 60px auto;
+    width: 1125px; }
+    /* line 211, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+    section article div.container p {
+      font-size: 21px;
+      line-height: 30px;
+      font-family: 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif; }
+/* line 219, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section article div.container h3 {
+  color: #000;
+  font: normal 40px/50px 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif;
+  margin: 0 0 20px 0;
+  text-align: center;
+  text-transform: uppercase; }
+/* line 226, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section article div.container h4 {
+  color: #000;
+  font: normal 25px/30px 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif;
+  margin: 0 0 20px 0;
+  text-transform: uppercase; }
+/* line 232, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section .gallery {
+  height: 480px; }
+  /* line 234, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section .gallery .img-wrapper {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 9px;
+    margin: 7px;
+    width: 220px;
+    float: left; }
+    /* line 241, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+    section .gallery .img-wrapper > div {
+      height: 200px;
+      width: 200px; }
+/* line 247, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+section#error {
+  background-image: url(../images/contact.jpg); }
+
+/* line 253, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+footer article {
+  padding-bottom: 50px;
+  text-align: center; }
+  /* line 257, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article .contact_icon {
+    border-radius: 90px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    box-shadow: 0 0 10px black;
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    margin: 0 20px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 180px;
+    height: 180px;
+    background-position: top left; }
+  /* line 271, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article .mitch {
+    background-image: url("/img/336822_10150327461763468_1676773764_o.jpg");
+    background-position-x: -86px;
+    background-position-y: -54px;
+    background-size: 200%; }
+  /* line 277, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article .megs {
+    background-image: url("/img/IMG_9981-2.jpg");
+    background-position-x: -44px;
+    background-position-y: -28px;
+    background-size: 162%; }
+  /* line 284, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article h3 {
+    color: #000;
+    font: normal 40px/50px 'WalkwayBold', Arial, Helvetica, Verdana, sans-serif;
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase; }
+  /* line 291, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article p {
+    color: #565656;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  /* line 297, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article p:last-of-type {
+    font-size: 14px;
+    line-height: 20px; }
+  /* line 301, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article ul {
+    margin: 120px 0 5px 0; }
+  /* line 304, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article ul li {
+    color: #565656;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px; }
+  /* line 310, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article ul li:first-of-type:after {
+    content: '|';
+    display: inline-block;
+    margin: 0 5px 0 3px;
+    position: relative;
+    top: -1px; }
+  /* line 317, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  footer article a {
+    color: #0085a2; }
+
+/* Tablet - Landscape
+----------------------------------------------- */
+@media all and (max-width: 1024px) {
+  /* line 326, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  body {
+    -webkit-text-size-adjust: none; }
+
+  /* Navigation
+  ----------------------------------------------- */
+  /* line 332, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  nav {
+    display: none; }
+
+  /* Sections
+  ----------------------------------------------- */
+  /* line 338, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section {
+    background-attachment: scroll;
+    background-position: center -130px;
+    background-size: 102% auto;
+    /* About */
+    /* Process */
+    /* Works */
+    /* Contact */ }
+
+  /* line 347, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header {
+    height: 300px; }
+
+  /* line 351, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header h1,
+  section header h2 {
+    font-size: 60px;
+    line-height: 65px;
+    left: 0;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    width: 800px; }
+
+  /* line 361, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article {
+    padding-bottom: 100px;
+    padding-top: 50px; }
+
+  /* line 365, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article div.container {
+    position: relative;
+    width: 800px; }
+
+  /* line 369, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about {
+    background-image: url(../images/about.jpg); }
+
+  /* line 372, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about video {
+    display: none; }
+
+  /* line 375, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 {
+    font-size: 20px;
+    line-height: 25px;
+    top: 80px; }
+
+  /* line 380, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 b {
+    font-size: 60px;
+    line-height: 65px; }
+
+  /* line 384, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div {
+    height: auto;
+    padding: 270px 0 0 0;
+    width: 390px; }
+
+  /* line 389, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div img {
+    height: 270px;
+    width: 390px; }
+
+  /* line 393, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div div {
+    height: auto;
+    left: auto;
+    padding: 40px;
+    position: static;
+    top: auto;
+    width: 310px; }
+
+  /* line 401, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div div h4 {
+    font-size: 20px;
+    line-height: 25px; }
+
+  /* line 405, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div div p {
+    margin-bottom: 20px; }
+
+  /* line 408, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container img {
+    height: auto;
+    width: 100%; }
+
+  /* line 412, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li {
+    padding: 30px 30px 30px 50px;
+    width: 290px; }
+
+  /* line 416, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li h4 {
+    font-size: 20px;
+    line-height: 25px; }
+
+  /* line 420, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li h4 b {
+    right: 295px; }
+
+  /* line 423, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li p {
+    margin-top: 0; }
+
+  /* line 426, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul {
+    margin: 0;
+    width: 100%; }
+
+  /* line 430, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li {
+    height: auto;
+    padding: 190px 0 0 0;
+    width: 190px; }
+
+  /* line 435, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li img {
+    height: 190px;
+    width: 190px; }
+
+  /* line 439, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div {
+    height: 80px;
+    left: auto;
+    padding: 10px;
+    position: static;
+    top: auto;
+    width: 170px; }
+
+  /* line 447, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div h4 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px; }
+
+  /* line 452, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div p {
+    display: none; }
+
+  /* line 455, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div a {
+    color: #cecece; }
+
+  /* line 458, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div a:hover {
+    color: #fff; }
+
+  /* line 461, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header h2 {
+    top: 70px; }
+
+  /* line 464, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header p {
+    display: none; }
+
+  /* line 467, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container h3 {
+    font-size: 40px; }
+
+  /* line 470, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container p:last-of-type {
+    margin-bottom: -80px; } }
+/* Tablet - Portrait
+----------------------------------------------- */
+@media all and (max-width: 810px) {
+  /* Sections
+  ----------------------------------------------- */
+  /* line 480, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section {
+    background-position: center -60px;
+    /* About */
+    /* Process */
+    /* Works */ }
+
+  /* line 487, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header h1,
+  section header h2 {
+    font-size: 50px;
+    line-height: 55px;
+    width: 600px; }
+
+  /* line 492, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article div.container {
+    width: 600px; }
+
+  /* line 495, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about {
+    background-position: center -60px; }
+
+  /* line 498, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 {
+    font-size: 16px;
+    line-height: 20px;
+    top: 90px; }
+
+  /* line 503, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 b {
+    font-size: 45px;
+    line-height: 50px; }
+
+  /* line 507, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div {
+    padding: 201px 0 0 0;
+    width: 290px; }
+
+  /* line 511, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div img {
+    height: 201px;
+    width: 290px; }
+
+  /* line 515, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div div {
+    padding: 30px;
+    width: 230px; }
+
+  /* line 519, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li {
+    height: 290px;
+    width: 210px; }
+
+  /* line 523, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li h4 b {
+    right: 215px; }
+
+  /* line 526, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li {
+    margin: 0 15px 15px 0; }
+
+  /* line 529, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li:nth-of-type(4n + 4) {
+    float: left;
+    margin-right: 15px; }
+
+  /* line 533, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li:nth-of-type(3n + 3) {
+    float: right;
+    margin-right: 0; }
+
+  /* Questionnaire
+  ----------------------------------------------- */
+  /* line 540, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  body.questionnaire {
+    padding: 13px 0; } }
+/* Mobile - Landscape
+----------------------------------------------- */
+@media all and (max-width: 568px) {
+  /* Sections
+  ----------------------------------------------- */
+  /* line 550, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section {
+    background-position: center -60px;
+    /* About */
+    /* Process */
+    /* Works */
+    /* Contact */
+    /* Contact */ }
+
+  /* line 558, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header {
+    height: 150px; }
+
+  /* line 562, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section header h1,
+  section header h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    top: 30px;
+    width: 96%; }
+
+  /* line 570, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article {
+    padding-bottom: 30px;
+    padding-top: 30px; }
+
+  /* line 574, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section article div.container {
+    margin: 0 auto;
+    width: 90%; }
+
+  /* line 578, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 {
+    font-size: 14px;
+    line-height: 16px;
+    top: 40px; }
+
+  /* line 583, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about header h1 b {
+    font-size: 25px;
+    line-height: 40px; }
+
+  /* line 587, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container h2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 18px 0; }
+
+  /* line 592, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0; }
+
+  /* line 597, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about article div.container div {
+    display: none; }
+
+  /* line 600, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process header h2 {
+    top: 50px; }
+
+  /* line 603, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container img {
+    display: none; }
+
+  /* line 606, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container h3 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 18px 0;
+    padding: 0; }
+
+  /* line 612, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px; }
+
+  /* line 617, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 623, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li:nth-of-type(2n + 2) {
+    float: none;
+    margin-right: auto; }
+
+  /* line 627, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li h4 {
+    margin: 0; }
+
+  /* line 630, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#process article div.container ul li p {
+    display: none; }
+
+  /* line 633, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works {
+    display: none; }
+
+  /* line 636, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works header h2 {
+    top: 50px; }
+
+  /* line 639, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container h3 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 18px 0;
+    padding: 0; }
+
+  /* line 645, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px; }
+
+  /* line 650, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0; }
+
+  /* line 657, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li:nth-of-type(2n + 2) {
+    float: none;
+    margin-right: auto; }
+
+  /* line 661, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li img {
+    display: none; }
+
+  /* line 664, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div {
+    height: auto; }
+
+  /* line 667, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div h4 {
+    margin: 0; }
+
+  /* line 670, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#works article div.container ul li div p {
+    display: none; }
+
+  /* line 673, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header h2 {
+    top: 60px; }
+
+  /* line 676, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header p {
+    display: none; }
+
+  /* line 679, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0; }
+
+  /* line 684, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px; }
+
+  /* line 689, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container p:last-of-type {
+    margin-bottom: -20px;
+    margin-top: 40px; }
+
+  /* line 693, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container ul {
+    margin: -5px 0 0 0; }
+
+  /* line 696, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact article div.container ul li {
+    margin: 0 -20px;
+    transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5); }
+
+  /* line 701, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#error header h2 {
+    top: 45px; } }
+/* Mobile - Tablet
+----------------------------------------------- */
+@media all and (max-width: 320px) {
+  /* Sections
+  ----------------------------------------------- */
+  /* line 711, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section {
+    background-position: center top;
+    /* About */
+    /* Contact */ }
+
+  /* line 716, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#about {
+    background-position: center -25px; }
+
+  /* line 719, /Users/mlindsay/Personal/mitchandmegsphoto_static/source/css/main.css.scss */
+  section#contact header h2 {
+    top: 45px; } }

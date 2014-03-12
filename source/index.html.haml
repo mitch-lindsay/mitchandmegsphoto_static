@@ -1,7 +1,7 @@
 %section#hero
   %header
     %h1
-      Mitch and Megs Photography Foo
+      Mitch and Megs Photography
 %nav.navbar.navbar-fixed-top#navbar
   %ul.nav.navbar-nav
     %li
@@ -15,7 +15,7 @@
     %li
       %a{:href => "#investment", :title => "Investment"} Investment
     %li
-      %a{:href => "http://blog.mitchandmegsphotography.com/", :title => "Blog"} Blog
+      %a{:href => "http://blog.mitchandmegs.com/", :title => "Blog"} Blog
     %li
       %a{:href => "#contact", :title => "Contact"} Contact
 %section#about
@@ -24,16 +24,16 @@
       %h3
         CAPTURING MEMORIES FOR A LIFETIME
       %p
-        We are photographers in the beautiful Northern San Francisco Bay Area specializing in personal experiences. For us, photography is more than a studio and a nice glossy 8x10 to hang on the wall. It's about capturing images that will be memories for a lifetime to come. It’s about getting to know our clients and finding ways express who they are in photographs.  Whether you’re an expecting mother or a bride to be, we treat every client with love and respect.
+        We are photographers in the beautiful Northern San Francisco Bay Area specializing in personal experiences. For us photography is more than a studio and a nice glossy 8x10 to hang on the wall. It’s about getting to know our clients and finding ways to express who they are in photographs and capturing images for a lifetime to come.
 %section#lifestyle
   %header
     %h2
       Lifestyle
   %article
     .container
-      %h3 Capturing your story
+      %h3 Tell your story. Lifestyle photography is an honest reflection of who you are.
       %p
-        Sometimes its the small moments that make today wonderful.  The candid, natural moments that happen between the hussle and bussle.  This is the story we try to tell, the story of you and all that makes you wonderful.
+        Lifestyle images can include but are not limited to senior portraits, family portraits, and anytime sessions.
     #lifestyle_gallery.gallery
       =gallery_wrapper("lifestyle/lifestyle-1", "lifestyle_gallery")
       =gallery_wrapper("lifestyle/lifestyle-2", "lifestyle_gallery")
@@ -49,16 +49,16 @@
       =gallery_wrapper("lifestyle/lifestyle-12", "lifestyle_gallery")
     #lifestyle_gallery_timer{style: "height:3px;background-color:#000;"}
     %script
-      \ homeGallery.lifestyle();
+      \ jQuery(homeGallery.lifestyle());
 %section#little_ones
   %header
     %h2
       Little Ones
   %article
     .container
-      %h3 Helping your little ones stay small for just a little bit longer...
+      %h3 Helping your little ones stay small for just a little bit longer.
       %p
-        Hold on to the story and memories of your little one’s life just as they are right now.
+        All Little Ones sessions include bubbles upon request. Really really BIG bubbles!
     #children_gallery.gallery
       =gallery_wrapper("little_ones/little_ones-1", "children_gallery")
       =gallery_wrapper("little_ones/little_ones-2", "children_gallery")
@@ -74,16 +74,16 @@
       =gallery_wrapper("little_ones/little_ones-12", "children_gallery")
     #children_gallery_timer{style: "height:3px;background-color:#000;"}
     %script
-      \ homeGallery.children();
+      \ jQuery(homeGallery.children());
 %section#love
   %header
     %h2
       Love
   %article
     .container
-      %h3 We love Love!
+      %h3 Love. Story.
       %p
-        We love Love! We also love engagements and weddings. If you’re interested in having us capture your love, please contact us to schedule a consultation.  Engagement sessions can be done as part of a wedding package or separately.  For weddings we are a full service, full day company, providing complete coverage of your day.
+        We love Love! We also love engagements and weddings. If you’re interested in having us capture your love please contact us for further details for your Big Day!
     #love_gallery.gallery
       =gallery_wrapper("love/love-1", "love_gallery")
       =gallery_wrapper("love/love-2", "love_gallery")
@@ -106,7 +106,7 @@
       =gallery_wrapper("love/love-19", "love_gallery")
     #love_gallery_timer{style: "height:3px;background-color:#000;"}
     %script
-      \ homeGallery.love();
+      \ jQuery(homeGallery.love());
 %section#investment
   %header
     %h2
@@ -115,24 +115,14 @@
     .container
       %h3
         Photography is an investment in preserving our memories.
-      %p
-        Photographs have an amazing power to bring us back to a moment in time.
-        So many memories locked up in a single image, telling a story of an instant.
-        This, above all else, is why we are photographers.
-        Life is fleeting and the memories that can be captured and held onto are like investments in ourselves and our futures.
-        This is why we try so hard to give you these memories and hold on to them forever.
       %h4
-        Set Your Pixels Free
+        Own Your Memories
       %p
-        Mamas don't let your babies grow up to be pixels. We love prints! They are something substantial and meaningful to capture and hold on to. When Facebook is gone or CDs are obsolete, the one thing that will stand the test of time and act as an heirloom for future generations are prints. That's why we provide printing services for all of our clients. We want to make sure that you get the best quality to preserve your memories and keep them around for years to come. Albums and canvases are also available upon request.
+        We want you to own your photos and your memories. So, with every package you receive a CD of "personal use" digital images. These are perfect for posting to the web, sharing with friends, and to print 5x7 images from so feel free to share your images.
       %h4
-        Wait, you give out CDs
+        Print. Love.
       %p
-        We want you to own your photos and your memories. So, with every package you receive a CD of "personal uses" digital images. These are perfect for posting to the web, sharing with friends, and are high enough quality to print 5x7 images from. So feel free to share your images.
-      %h4
-        Great, that means I can get prints for cheap somewhere else.
-      %p
-        We want you to have the freedom to use the images as you please but we also want to make sure you get the most out of your pictures. When you use our printing services, your prints are set on high quality Kodak paper and printed in inks what are designed to not only resist fading but provide the truest colors, so your daughter's red dress is really red and your fiance's blue eyes as blue as you remember them. It does costs a bit more than your local big box store, but the quality will make your investment in photography really shine.
+        We want you to have your images but we also want to make sure you get the most out of your pictures. When you use our printing services for large prints they are set on high quality Kodak paper and printed with inks what are designed to not only resist fading but provide the truest colors (so your daughter's red dress is really red and your baby’s blue eyes are as blue as you remember them). The print and quality will make your investment in photography really shine.
 %footer#contact
   %header
     %h2 Contact
@@ -152,5 +142,11 @@
         %li
           %a{:href => "http://twitter.com/megsphotography", :title=>"Twitter", :target=>"_blank"} Twitter
       %p ©2014 Mitch and Megs, LLC
+%script
+  \  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  \  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  \  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  \  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
+  \  ga('create', 'UA-21379909-1', 'mitchandmegs.com');
+  \  ga('send', 'pageview');
